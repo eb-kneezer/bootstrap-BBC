@@ -1,0 +1,795 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <style>
+      p,
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6 {
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+      }
+    </style>
+    <title>BBC</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="./assets/blq-orbit-blocks_white.svg" alt="" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item border-end">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item border-end">
+              <a class="nav-link" href="#">News</a>
+            </li>
+            <li class="nav-item border-end">
+              <a class="nav-link" href="#">Sport</a>
+            </li>
+            <li class="nav-item border-end">
+              <a class="nav-link" href="#">Reel</a>
+            </li>
+            <li class="nav-item border-end">
+              <a class="nav-link" href="#">Worklife</a>
+            </li>
+            <li class="nav-item border-end">
+              <a class="nav-link" href="#">Travel</a>
+            </li>
+            <li class="nav-item border-end">
+              <a class="nav-link" href="#">Future</a>
+            </li>
+            <li class="nav-item border-end">
+              <a class="nav-link" href="#">Culture</a>
+            </li>
+            <li class="nav-item dropdown border-end">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDarkDropdownMenuLink"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Dropdown
+              </a>
+              <ul
+                class="dropdown-menu dropdown-menu-light"
+                aria-labelledby="navbarDarkDropdownMenuLink"
+              >
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search"
+            />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <section>
+      <div class="container">
+        <div class="welcome mt-3"><h4>Welcome to BBC.com</h4></div>
+        <div class="row row-cols-2 row-cols-md-4 g-3 text-white">
+          <div class="col-12 col-lg-6">
+            <div class="card">
+              <img
+                src="./assets/manchildrain.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div
+                class="card-img-overlay d-flex"
+                style="
+                  background-image: linear-gradient(
+                    rgba(0, 0, 0, 0),
+                    rgba(0, 0, 0, 0.808)
+                  );
+                "
+              >
+                <div class="align-self-end">
+                  <h5 class="card-title">
+                    New York and New Jersey floods floods kill at least nine
+                  </h5>
+                  <p class="card-text">
+                    A two-year-old boy is among the victims, while others were
+                    trapped in their flooded basements.
+                  </p>
+                  <p class="ps-2 border-start border-danger border-3">
+                    US & CANADA
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6 row-cols-md-2 d-md-flex flex-wrap">
+            <div class="col">
+              <div class="card">
+                <img
+                  src="./assets/ronaldo.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div
+                  class="
+                    card-img-overlay
+                    d-flex
+                    flex-column
+                    justify-content-end
+                  "
+                  style="
+                    background-image: linear-gradient(
+                      rgba(0, 0, 0, 0),
+                      rgba(0, 0, 0, 0.808)
+                    );
+                  "
+                >
+                  <h5 class="card-title">
+                    Ronaldo breaks international goal record
+                  </h5>
+                  <p class="ps-2 border-start border-primary border-3">
+                    EUROPEAN FOOTBALL
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img
+                  src="./assets/cooperlopez.jpg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div
+                  class="
+                    card-img-overlay
+                    d-flex
+                    flex-column
+                    justify-content-end
+                  "
+                  style="
+                    background-image: linear-gradient(
+                      rgba(0, 0, 0, 0),
+                      rgba(0, 0, 0, 0.808)
+                    );
+                  "
+                >
+                  <h5 class="card-title">Should you get back with an ex?</h5>
+                  <p class="ps-2 border-start border-primary border-3">
+                    WORKLIFE
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="./assets/canyon.jpg" class="card-img-top" alt="..." />
+                <div
+                  class="
+                    card-img-overlay
+                    d-flex
+                    flex-column
+                    justify-content-end
+                  "
+                  style="
+                    background-image: linear-gradient(
+                      rgba(0, 0, 0, 0),
+                      rgba(0, 0, 0, 0.808)
+                    );
+                  "
+                >
+                  <h5 class="card-title">
+                    The search for the eon that vanished
+                  </h5>
+                  <p class="ps-2 border-start border-dark border-3">FUTURE</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="./assets/china.jpg" class="card-img-top" alt="..." />
+                <div
+                  class="
+                    card-img-overlay
+                    d-flex
+                    flex-column
+                    justify-content-end
+                  "
+                  style="
+                    background-image: linear-gradient(
+                      rgba(0, 0, 0, 0),
+                      rgba(0, 0, 0, 0.808)
+                    );
+                  "
+                >
+                  <h5 class="card-title">
+                    China steps in amid anger over brutal work hours
+                  </h5>
+                  <p class="ps-2 border-start border-primary border-3">CHINA</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="welcome mt-5 mb-3 ps-2 border-start border-danger border-3">
+          <h4>News</h4>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3 g-3">
+          <div class="col">
+            <div class="card h-100 border-0">
+              <img src="./assets/abortion.jpg" class="card-img-top" alt="..." />
+              <div class="card-body p-0 pt-2">
+                <h5 class="card-title">
+                  Supreme Court refuses to block Texas abortion ban
+                </h5>
+                <p class="card-text">
+                  The court said legal challenges to the law banning abortions
+                  for most women could still proceed.
+                </p>
+              </div>
+              <p class="ps-2 mt-2 border-start border-danger border-3">
+                US & CANADA
+              </p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 border-0">
+              <img src="./assets/taliban.jpg" class="card-img-top" alt="..." />
+              <div class="card-body p-0 pt-2">
+                <h5 class="card-title">
+                  Taliban seek to end rebel valley resistance
+                </h5>
+                <p class="card-text">
+                  The militant group is fighting with opposition groups in the
+                  Panjshir Valley north of Kabul.
+                </p>
+              </div>
+              <p class="ps-2 mt-2 border-start border-danger border-3">WORLD</p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 border-0">
+              <img src="./assets/medal.jpg" class="card-img-top" alt="..." />
+              <div class="card-body p-0 pt-2">
+                <h5 class="card-title">
+                  Anger after Paralympian is stripped of gold medal
+                </h5>
+                <p class="card-text">
+                  Muhammad Ziyad Zolkefli won his shot put event but had his
+                  title revoked because he was three minutes late.
+                </p>
+              </div>
+              <p class="ps-2 mt-2 border-start border-danger border-3">ASIA</p>
+            </div>
+          </div>
+        </div>
+
+        <div
+          class="welcome mt-5 mb-3 ps-2 border-start border-warning border-3"
+        >
+          <h4>Sport</h4>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3 g-3 pb-4">
+          <div class="col">
+            <div class="card h-100 border-0">
+              <img src="./assets/cricket1.jpg" class="card-img-top" alt="..." />
+              <div class="card-body p-0 pt-2">
+                <h5 class="card-title">
+                  India openers survive first half hour in fourth Test - clips,
+                  radio & text
+                </h5>
+                <p class="card-text">
+                  England face India in the penultimate Test of the five-match
+                  series at the Kia Oval.
+                </p>
+              </div>
+              <p class="ps-2 mt-2 border-start border-warning border-3">
+                CRICKET
+              </p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 border-0">
+              <img src="./assets/cricket2.jpg" class="card-img-top" alt="..." />
+              <div class="card-body p-0 pt-2">
+                <h5 class="card-title">
+                  Hiding in Kabul - the cricket players who fear for their lives
+                </h5>
+                <p class="card-text">
+                  Members of Afghanistan's women's cricket team are hiding in
+                  Kabul, fearing for their safety following the Taliban's return
+                  to power.
+                </p>
+              </div>
+              <p class="ps-2 mt-2 border-start border-warning border-3">
+                CRICKET
+              </p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 border-0">
+              <img
+                src="./assets/paralympics.jpg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body p-0 pt-2">
+                <h5 class="card-title">
+                  Tokyo Paralympics: Titles for Firth & Watson after Storey's
+                  record-breaking 17th gold
+                </h5>
+                <p class="card-text">
+                  Live text commentary from day nine in Tokyo after Sarah Storey
+                  wins her 17th Paralympic Games gold medal.
+                </p>
+              </div>
+              <p class="ps-2 mt-2 border-start border-warning border-3">
+                DISABILITY SPORT
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section
+      class="text-white py-4"
+      style="
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0.541),
+            rgba(0, 0, 0, 0.349)
+          ),
+          url('./assets/reels-bg.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      "
+    >
+      <div class="container">
+        <div
+          class="
+            reel-top
+            d-flex
+            justify-content-between
+            align-items-center
+            mb-2
+          "
+        >
+          <div class="reel-header">
+            <h1>REEL</h1>
+            <h5>The most amazing videos from the BBC</h5>
+          </div>
+          <div>
+            <button type="button" class="btn btn-outline-light rounded-pill">
+              Visit Reel
+            </button>
+          </div>
+        </div>
+        <div class="reel-bottom row row-cols-1 row-cols-md-3 g-3 text-dark">
+          <div class="col">
+            <div class="card h-100 border-0 rounded-0">
+              <img
+                src="./assets/temple.jpg"
+                class="card-img-top rounded-0"
+                alt="..."
+              />
+              <div class="card-body p-2">
+                <h5 class="card-text">
+                  The stunning sculptures that won a temple World Heritage
+                  status
+                </h5>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 border-0 rounded-0">
+              <img
+                src="./assets/happiest.jpg"
+                class="card-img-top rounded-0"
+                alt="..."
+              />
+              <div class="card-body p-2">
+                <h5 class="card-text">
+                  Lessons on wealth from the happiest country in the world
+                </h5>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 border-0 rounded-0">
+              <img
+                src="./assets/couple.jpg"
+                class="card-img-top rounded-0"
+                alt="..."
+              />
+              <div class="card-body p-2">
+                <h5 class="card-text">
+                  The iconic couple with a controversial open marriage
+                </h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section style="background: #f3f3f3">
+      <div class="container py-5">
+        <div class="welcome mb-3 ps-2 border-start border-primary border-3">
+          <h4>Editor's Picks</h4>
+        </div>
+        <div class="editors-picks row row-cols-1 row-cols-md-3 g-3">
+          <div class="editors col-8">
+            <div class="card text-white">
+              <img
+                src="./assets/black-horror.jpg"
+                class="card-img-top rounded-0"
+                alt="..."
+              />
+              <div
+                class="card-img-overlay d-flex"
+                style="
+                  background-image: linear-gradient(
+                    rgba(0, 0, 0, 0),
+                    rgba(0, 0, 0, 0.808)
+                  );
+                "
+              >
+                <div class="align-self-end">
+                  <h1 class="card-title">The problem with horror and racism</h1>
+                  <p class="card-text fs-5">
+                    The new Candyman and how horror is reflecting black trauma,
+                    for better or worse
+                  </p>
+                  <p class="ps-2 border-start border-dark border-3">CULTURE</p>
+                </div>
+              </div>
+            </div>
+            <div class="row row-cols-md-3 g-3 d-flex flex-wrap text-dark mt-1">
+              <div class="col">
+                <div class="card rounded-0 border-0 h-100">
+                  <img
+                    src="./assets/narcissist.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body p-2">
+                    <h5 class="card-title">How narcissists climb the ladder</h5>
+                    <p class="card-text">
+                      Why self-centered workers keep getting promoted
+                    </p>
+                  </div>
+                  <p class="ps-2 m-2 border-start border-warning border-3">
+                    WORKLIFE
+                  </p>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card rounded-0 border-0 h-100">
+                  <img
+                    src="./assets/plant.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body p-2">
+                    <h5 class="card-title">Are plants talking to us?</h5>
+                    <p class="card-text">
+                      Many people believe talking to plants help them grow, but
+                      can they talk back?
+                    </p>
+                  </div>
+                  <p class="ps-2 m-2 border-start border-dark border-3">
+                    FUTURE
+                  </p>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card rounded-0 border-0 h-100">
+                  <img
+                    src="./assets/capital.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body p-2">
+                    <h5 class="card-title">
+                      The Asian capital you've never heard of
+                    </h5>
+                    <p class="card-text">
+                      It's located in the shadow of one of the world's
+                      most-visited cities
+                    </p>
+                  </div>
+                  <p class="ps-2 m-2 border-start border-success border-3">
+                    TRAVEL
+                  </p>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card rounded-0 border-0 h-100">
+                  <img
+                    src="./assets/makeup.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body p-2">
+                    <h5 class="card-title">
+                      Kabul make-up artist: 'Women like me are Taliban targets'
+                    </h5>
+                    <p class="card-text">
+                      A make-up artist in hiding explains how much Afghanistan's
+                      beauty industry has meant to women
+                    </p>
+                  </div>
+                  <p class="ps-2 m-2 border-start border-primary border-3">
+                    STORIES
+                  </p>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card rounded-0 border-0 h-100">
+                  <img
+                    src="./assets/company-name.jpg"
+                    class="card-img-top"
+                    alt="..."
+                  />
+                  <div class="card-body p-2">
+                    <h5 class="card-title">
+                      Why picking a good company name is a tricky business
+                    </h5>
+                    <p class="card-text">
+                      With the number of new start-ups soaring they all have to
+                      choose a name for themselves
+                    </p>
+                  </div>
+                  <p class="ps-2 m-2 border-start border-danger border-3">
+                    BUSINESS
+                  </p>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card rounded-0 border-0 h-100">
+                  <img src="./assets/seal.jpg" class="card-img-top" alt="..." />
+                  <div class="card-body p-2">
+                    <h5 class="card-title">
+                      Singing baboon and giggling seal in photo competition
+                      finals
+                    </h5>
+                    <p class="card-text">
+                      An angry starling and a lounging bear were also among the
+                      finalists
+                    </p>
+                  </div>
+                  <p class="ps-2 m-2 border-start border-primary border-3">
+                    IN PICTURES
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="latest col-4 text-white">
+            <div class="bg-danger p-2">
+              <h5>LATEST BUSINESS NEWS</h5>
+            </div>
+            <div
+              class="
+                d-flex
+                align-items-center
+                bg-dark
+                p-4
+                justify-content-between
+                fs-5
+              "
+            >
+              <span
+                style="height: 50px; width: 50px"
+                class="
+                  rounded-circle
+                  bg-danger
+                  d-flex
+                  justify-content-center
+                  align-items-center
+                "
+                >1</span
+              >
+              <p class="w-75">
+                Facebook says it helped people escape Afghanistan
+              </p>
+            </div>
+            <div
+              class="
+                d-flex
+                align-items-center
+                bg-dark
+                p-4
+                justify-content-between
+                fs-5
+              "
+            >
+              <span
+                style="height: 50px; width: 50px"
+                class="
+                  rounded-circle
+                  bg-danger
+                  d-flex
+                  justify-content-center
+                  align-items-center
+                "
+                >2</span
+              >
+              <p class="w-75">
+                Sacklers win immunity from further opioid litigation
+              </p>
+            </div>
+            <div
+              class="
+                d-flex
+                align-items-center
+                bg-dark
+                p-4
+                justify-content-between
+                fs-5
+              "
+            >
+              <span
+                style="height: 50px; width: 50px"
+                class="
+                  rounded-circle
+                  bg-danger
+                  d-flex
+                  justify-content-center
+                  align-items-center
+                "
+                >3</span
+              >
+              <p class="w-75">
+                Driver shortage: 'I got a big pay rise overnight'
+              </p>
+            </div>
+            <div
+              class="
+                d-flex
+                align-items-center
+                bg-dark
+                p-4
+                justify-content-between
+                fs-5
+              "
+            >
+              <span
+                style="height: 50px; width: 50px"
+                class="
+                  rounded-circle
+                  bg-danger
+                  d-flex
+                  justify-content-center
+                  align-items-center
+                "
+                >4</span
+              >
+              <p class="w-75">
+                More students turn to crypto investing to plug gap
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="text-white py-4"
+      style="
+        background-image: linear-gradient(
+            rgba(0, 0, 0, 0.541),
+            rgba(0, 0, 0, 0.349)
+          ),
+          url('./assets/future-planet.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      "
+    >
+      <div class="container">
+        <div
+          class="
+            reel-top
+            d-flex
+            justify-content-between
+            align-items-center
+            mb-2
+          "
+        >
+          <div class="reel-header">
+            <h1>Future Planet</h1>
+            <h5>Solutions for a sustainable world</h5>
+          </div>
+          <div>
+            <button type="button" class="btn btn-outline-light rounded-pill">
+              Visit Future Planet
+            </button>
+          </div>
+        </div>
+        <div
+          class="reel-bottom row row-cols-1 row-cols-md-3 g-3 text-dark mb-3"
+        >
+          <div class="col">
+            <div class="card h-100 border-0 rounded-0">
+              <img
+                src="./assets/amazon.jpg"
+                class="card-img-top rounded-0"
+                alt="..."
+              />
+              <div class="card-body p-2">
+                <h5 class="card-text">Can investors save the Amazon?</h5>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 border-0 rounded-0">
+              <img
+                src="./assets/rewild.jpg"
+                class="card-img-top rounded-0"
+                alt="..."
+              />
+              <div class="card-body p-2">
+                <h5 class="card-text">
+                  The controversial plan to rewild death
+                </h5>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100 border-0 rounded-0">
+              <img
+                src="./assets/persian.jpg"
+                class="card-img-top rounded-0"
+                alt="..."
+              />
+              <div class="card-body p-2">
+                <h5 class="card-text">The ancient Persian way to keep cool</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer></footer>
+  </body>
+</html>
